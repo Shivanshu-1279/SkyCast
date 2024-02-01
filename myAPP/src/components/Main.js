@@ -25,7 +25,7 @@ const Main = () => {
         setMyData(data.list[0].main);
         setDataWeather(data.list[0].weather[0]);
         setWindData(data.list[0].wind);
-        setForecastData(data.list.filter((item, index) => index % 8 === 0)); // Extracting forecast data for every 24 hours
+        setForecastData(data.list.filter((item, index) => index % 8 === 0)); 
         setError(true);
       } else {
         setError(false);
@@ -69,7 +69,7 @@ const Main = () => {
         city={cityDetails}
         lang={lang}
         windData={windData}
-        forecastData={forecastData} // Pass forecast data to WeatherData component
+        forecastData={forecastData}
       />
       <p onClick={() => setLang(!lang)} className='translater'>{lang ? 'Hindi' : 'English'}</p>
     </div>
