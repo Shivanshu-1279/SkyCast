@@ -8,11 +8,6 @@ const WeatherData = (props) => {
     ).getMinutes()}`;
   };
 
-  // const getDayOfWeek = (date) => {
-  //   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  //   return days[new Date(date).getDay()];
-  // };
-
   const getDayOfWeek = (date) => {
     const daysEnglish = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const daysHindi = ['रविवार', 'सोमवार', 'मंगलवार', 'बुधवार', 'गुरुवार', 'शुक्रवार', 'शनिवार'];
@@ -88,7 +83,6 @@ const WeatherData = (props) => {
 <hr/>
 
 
-  {/* 5-Day Forecast */}
   <h1>5-Day Forecast :</h1>
       <div id='forecastScrolledItem' className='forcastdata' style={{}}>
         {forecastData.map((forecast, index) => (
