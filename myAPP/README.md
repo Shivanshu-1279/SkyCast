@@ -17,8 +17,7 @@ Welcome to our Weather Forecast App! This web application allows users to check 
 
  ### Deployment
 
-The Task Tracker App is deployed and accessible online. You can access it here [Node.js](https://nodejs.org/)
-
+The Weather Forecast App is deployed and accessible online. You can access it here [Deployed Link](https://skycastjs.netlify.app/)
 ## Getting Started
 
 ### Prerequisites
